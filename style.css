@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  background-color: #9334db;
+  background-color: #dbd034;
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 26px;
   display: flex;
@@ -9,12 +9,16 @@ body {
 }
 
 #playPauseButton {
-  font-size: 20px;
-  padding: 10px 20px;
-  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  font-size: large;
+  border-color: burlywood;
 }
 
-#currentLetter {
-  font-size: 24px;
-  margin-top: 20px;
+#currentPoint {
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
