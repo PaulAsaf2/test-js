@@ -9,7 +9,9 @@ let sound = new Howl({
 })
 
 function togglePlay() {
-  sound.play('9')
+  sound.play('10')
 }
 
 playBtn.addEventListener('click', togglePlay)
+
+alert(Howler.usingWebAudio);
